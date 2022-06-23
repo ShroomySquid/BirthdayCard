@@ -1,0 +1,77 @@
+body {
+    font-family: 'Happy Monkey', cursive;
+    background: linear-gradient(rgb(230, 57, 57), #a2d2ff);
+    color: #ffffff;
+    text-shadow: 0px 0px 2px black;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#avatar {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    border: 6px solid #EFB0C9;
+}
+#bdAge, #bdDate {
+    margin: 0 0 10 0;
+    background: #EFB0C9;
+    border: 6px solid #EFB0C9;
+    border-radius: 8px;
+}
+.gift-section {
+    margin-top: 20px;
+    margin-bottom: 48px;
+}
+.giftImg {
+    width: 500px;
+    height: 400px;
+    border: 6px solid #EFB0C9;
+    border-radius: 16px;
+    background-size: cover;
+    background-image: url("imagesHTML/gift2.webp");
+    margin: 0 auto;
+}
+
+#happyImg:hover {
+    background-image: url("imagesHTML/happy.gif");
+}
+
+#cheerImg:hover {
+    background-image: url("imagesHTML/crowd.gif");
+}
+
+#geniusImg:hover {
+    background-image: url("imagesHTML/genius.gif");
+}
+
+#badassImg:hover {
+    background-image: url("imagesHTML/tumbleweed.gif");
+}
+
+h5 {
+    font-size: 24px;
+}
+
+.lastGiftImg {
+    width: 500px;
+    height: 300px;
+    border: 6px solid #EFB0C9;
+    border-radius: 16px;
+    background-size: cover;
+    background-image: url("imagesHTML/gift2.webp");
+    margin: 0px auto;
+}
+
+.lastGiftImg:hover {
+    background-image: url("imagesHTML/seeyousoon.gif")
+}
+#footNote {
+    margin-top: 64px;
+    font-size: 24px;
+    font-style: italic;
+}
+#scrimbaLink {
+    color:#ffffff;
+}
